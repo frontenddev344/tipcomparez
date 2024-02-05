@@ -264,14 +264,14 @@ label {
 /* section2 styling end */
 /* section8 css start */
 .section8 {
-    padding: 188px 0;
+    padding: 100px 0;
     background: url(../img/bgsection.png);
     background-size: cover;
     background-position: center;
 }
 
 .section8 .row {
-    padding: 111px;
+    padding: 80px;
 }
 
 .gallery p {
@@ -526,22 +526,28 @@ section {}
 /* footer styling end */
 
 /* hotel styling */
+/* section3 hotel styling */
 .hotel {
     padding: 80px 0;
 }
 
 .hotel_section3 {
     padding: 80px 0;
-    background-image: url(../img/collection.jpg);
+    background-image: url(../img/collection.png);
     background-position: center;
     background-size: cover;
 }
 
 .hotel_section3 .collection_greece {
+    height: 100%;
     padding: 10px;
     color: #fff;
     text-align: center;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .collection_greece h3 {
@@ -550,3 +556,22 @@ section {}
     text-align: center;
 
 }
+
+.collection_greece p {
+padding-bottom: 10px;
+
+}
+.hotel_section3 .row {
+    display: flex;
+    justify-content: center;
+}
+/* section3 hotel styling end */
+/* hotel section 4 styling */
+.hotel_section4{
+    padding: 100px 0;
+}
+.hotel_section4 p {
+ text-align: center;
+   
+}
+/* hotel section 4 styling end */
