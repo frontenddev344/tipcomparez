@@ -60,16 +60,33 @@
     .navlink ul li {
         padding: 10px;
     }
-    .section8 .row {
-        padding: 30px;
-    }
+
     .box1 h2 {
-       margin-top: 10px;
+        margin-top: 10px;
     }
 }
-@media only screen and (max-width:991px){
-    
+
+@media only screen and (max-width:1024px) {
+    .section1 .box h1 {
+        font-size: 30px;
+    }
 }
+
+@media only screen and (max-width:991px) {
+    .hotel_box {
+        margin-bottom: 35px;
+    }
+
+    section,
+    .section2 {
+        padding: 40px 0;
+    }
+
+    .section1 .box h1 {
+        font-size: 22px;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .social_profile ul li a {
         margin-right: 10px;
@@ -83,10 +100,12 @@
     .Sign__input {
         padding: 0 50px 0 20px;
     }
+
     .single_footer {
         margin-bottom: 30px;
     }
 }
+
 @media only screen and (max-width:480px) {
     .social_profile ul li a {
         width: 40px;
