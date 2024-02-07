@@ -55,7 +55,9 @@ h2 {
 nav {
     background-color: #004F44;
 }
-
+.logo img {
+    max-width: 180px;
+}
 .navbar {
     padding: 0px 15px;
     display: flex;
@@ -266,7 +268,14 @@ label {
 /* section2 styling end */
 /* section8 css start */
 
-
+.gallery h3 {
+    font-size: 21px;
+}
+.gallery img {
+    height: 250px;
+    object-fit: cover;
+    padding-bottom: 25px;
+}
 .gallery p {
     color: #000;
     font-family: Inter;
@@ -305,6 +314,13 @@ label {
     background: white;
     padding: 20px;
 }   
+.section8 {
+    padding: 50px 0;
+}
+.img_box img {
+    height: 550px;
+    object-fit: cover;
+}
 /* section8 css end */
 /* footer styling */
 
