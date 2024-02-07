@@ -99,7 +99,6 @@ nav {
     font-style: normal;
     font-weight: 700;
     line-height: 82px;
-    /* 128.125% */
     letter-spacing: 1.68px;
     text-transform: uppercase;
 }
@@ -282,7 +281,6 @@ label {
     font-weight: 300;
     line-height: 30.01px;
     margin: 31px 0;
-    /* 173.333% */
 }
 
 .gallery span {
@@ -328,8 +326,6 @@ a:focus {
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
 }
-
-section {}
 
 .footer {
     background-image: url(../img/footerbg.jpg);
@@ -391,10 +387,6 @@ section {}
 .single_footer ul li a:hover {
     color: #FFDE59;
 }
-
-.single_footer_address {}
-
-.single_footer_address ul {}
 
 .single_footer_address ul li {
     color: #fff;
