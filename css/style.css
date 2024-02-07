@@ -629,3 +629,89 @@ section {}
 .game_casino h3{
 margin-top: 10px;
 }
+/*privacy-policy start*/
+.privacy__section {
+    position: relative;
+    height: 350px;
+    background-image: url(../img/privacybanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 0;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.privacy__section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+.privacy-policy {
+    padding: 40px 0;
+}
+.privacy__section .banner__text h1 {
+    color: #fff;
+}
+.terms__section .banner__text h1 {
+    color: #fff;
+}
+.content-wrap  li {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: normal;
+        color:#000;
+        padding-bottom: 8px
+}
+.terms {
+    padding: 40px 0;
+}
+
+.content-wrap h4 {
+        color:#004F44;
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+
+    .content-wrap  p {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+
+/*privacy-policy end*/
+
+/*terms-conditon start*/
+.terms__section {
+    position: relative;
+    height: 350px;
+    background-image: url(../img/termsbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 0;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+.terms__section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+/*terms-conditon-end/
