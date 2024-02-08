@@ -1,7 +1,7 @@
 @media screen and (max-width:1200px) {
-    body.toggle .navlink {
+    .toggle .navlink {
         transform: translateX(0);
-        z-index: 1;
+        
     }
 
     .open {
@@ -40,6 +40,7 @@
         width: 400px;
         padding: 40px;
         margin: 0;
+        z-index: 9;
     }
 
     .navlink ul {
