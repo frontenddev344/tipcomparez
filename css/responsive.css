@@ -64,6 +64,25 @@
     .box1 h2 {
         margin-top: 10px;
     }
+    .social_profile ul li a {
+        font-size: 18px;
+        width: 45px;
+        height: 45px;
+        line-height: 47px;
+    }
+    .copyright {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .same_box h1 {
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    
+    .same_box p {
+        font-size: 18px;
+        text-transform: capitalize;
+    }
 }
 
 @media only screen and (max-width:1024px) {
