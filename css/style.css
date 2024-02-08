@@ -175,7 +175,7 @@ button {
 
 button:hover {
     background: transparent;
-    border: 1px solid #FFDE59;
+    border: 1px solid #000;
     color: #FFDE59;
 }
 
