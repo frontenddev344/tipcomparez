@@ -62,11 +62,11 @@ nav {
 }
 
 .logo img {
-    max-width: 180px;
+    max-width: 130px;
 }
 
 .navbar {
-    padding: 0px 15px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
