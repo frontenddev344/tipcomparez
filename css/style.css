@@ -668,10 +668,12 @@ a:focus {
     padding: 80px 20px;
     background: #004F44;
 }
-.textgame_section{
+
+.textgame_section {
     font-size: 18px;
     color: #004F44;
 }
+
 .collection_game {
     display: flex;
     flex-direction: column;
@@ -680,6 +682,7 @@ a:focus {
     text-align: left;
     height: 100%;
 }
+
 .collection_game ul li {
     color: #fff;
     text-align: left;
@@ -961,9 +964,16 @@ input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
     background-color: #004F44;
+    border: 1px solid #004f44;
     color: #fff;
     border: 1px solid transparent;
     transition: all 0.5s;
+}
+
+input.form-control.sub_btn:hover {
+    background: #fff;
+    border: 1px solid #004f44;
+    color: #004f44;
 }
 
 .information_box {
