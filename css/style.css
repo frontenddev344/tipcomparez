@@ -33,7 +33,7 @@ a:active {
 
 .button,
 a:hover {
-    color: unset;
+    color: #000;
 }
 
 img {
@@ -225,7 +225,7 @@ label {
 /* section1 styling */
 
 .hotel_banner {
-    height: 400px;
+    height: 500px;
     background-image: url(../img/hotelbanner.png);
     background-size: cover;
     background-position: center;
@@ -276,8 +276,9 @@ label {
 .hotel_box p {
     margin: 20px 0;
 }
+
 .hotelcasino_banner {
-    height: 400px;
+    height: 500px;
     background-image: url(../img/hotelcasino.jpg);
     background-size: cover;
     background-position: center;
@@ -293,6 +294,7 @@ label {
     height: 100%;
     z-index: 0;
 }
+
 /* section2 styling end */
 /* section8 css start */
 
@@ -573,6 +575,11 @@ a:focus {
     padding: 80px 0;
 }
 
+.hotel_section3 h2 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
 .hotel_section3 {
     padding: 80px 0;
     background-image: url(../img/collection.png);
@@ -639,6 +646,7 @@ a:focus {
     height: 100%;
     z-index: 0;
 }
+
 .game_section {
     padding: 80px 0;
 }
@@ -657,15 +665,21 @@ a:focus {
 }
 
 .game_section2 {
-    padding: 80px 0;
+    padding: 80px 20px;
     background: #004F44;
 }
-
+.textgame_section{
+    font-size: 18px;
+    color: #004F44;
+}
 .collection_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     color: #fff;
     text-align: left;
+    height: 100%;
 }
-
 .collection_game ul li {
     color: #fff;
     text-align: left;
@@ -839,6 +853,7 @@ a:focus {
     height: 100%;
     z-index: 0;
 }
+
 .resort_text {
 
     padding: 80px 0;
@@ -887,7 +902,7 @@ a:focus {
 /* luxurious_lascasino end */
 /* about us styling start */
 .about_banner {
-    height: 400px;
+    height: 500px;
     background-image: url(../img/aboutbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -905,6 +920,7 @@ a:focus {
     top: 50%;
     left: 50%;
     color: #fff;
+    width: 80%;
     transform: translate(-50%, -50%);
 }
 
